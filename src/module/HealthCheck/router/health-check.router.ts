@@ -9,6 +9,7 @@ const healthCheckController = new HealthCheckController();
  * /api/v1/health-check:
  *   get:
  *     summary: Health check API
+ *     operationId: healthCheck
  *     description: Health check API!
  *     tags:
  *      - HealthCheck API
