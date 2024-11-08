@@ -6,14 +6,14 @@ This repository is for the **Express TS 4th Workshop**. It aims to establish a p
 
 ## ✨ Features
 
-- **Swagger** - API documentation tool for clear and interactive documentation
-- **ESLint** - Linter for identifying and fixing code errors and standardizing code style
-- **Prettier** - Code formatter for consistent styling
-- **Husky** - Git hooks for pre-commit checks, ensuring code quality before committing
+-   **Swagger** - API documentation tool for clear and interactive documentation
+-   **ESLint** - Linter for identifying and fixing code errors and standardizing code style
+-   **Prettier** - Code formatter for consistent styling
+-   **Husky** - Git hooks for pre-commit checks, ensuring code quality before committing
 
 ## ⚙️ Prerequisites
 
-- **Node.js**: Version 20 or higher
+-   **Node.js**: Version 20 or higher
 
 Ensure you have Node.js installed on your machine. You can download it [here](https://nodejs.org/).
 
@@ -50,8 +50,7 @@ To set up the project locally, follow these steps:
     ```
 
 2. Access the API and Swagger documentation:
-   - **Swagger**: Go to `http://localhost:<port>/api-docs` to view interactive API documentation (adjust `<port>` as needed in your setup).
-   
+    - **Swagger**: Go to `http://localhost:<port>/api-docs` to view interactive API documentation (adjust `<port>` as needed in your setup).
 
 This setup ensures a well-documented and clean codebase, promoting best practices for backend development in TypeScript.
 
