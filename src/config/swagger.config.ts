@@ -10,6 +10,37 @@ const swaggerOptions = {
             version: '1.0.0',
             description: 'Express Typescript API Documentation Template',
         },
+        tags: [
+            {
+                name: 'HealthCheck API',
+                description: 'Endpoints for health-check operations',
+            },
+        ],
+        components: {
+            schemas: {
+                HealthCheckDto: {
+                    type: 'object',
+                    properties: {
+                        status: {
+                            type: 'integer',
+                            example: 200,
+                        },
+                        message: {
+                            type: 'string',
+                            example: 'API is running',
+                        },
+                    },
+                },
+                ResposneDtoHealthCheckDto: {
+                    type: 'object',
+                    properties: {
+                        data: {
+                            $ref: '#/components/schemas/HealthCheckDto',
+                        },
+                    },
+                },
+            },
+        },
         servers: [
             {
                 url: `http://localhost:${PORT}`,

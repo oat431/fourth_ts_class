@@ -10,9 +10,15 @@ const healthCheckController = new HealthCheckController();
  *   get:
  *     summary: Health check API
  *     description: Health check API!
+ *     tags:
+ *      - HealthCheck API
  *     responses:
  *       200:
  *         description: Success
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ResposneDtoHealthCheckDto'
  */
 healthCheckRouter.get('/health-check', healthCheckController.healthCheck);
 
