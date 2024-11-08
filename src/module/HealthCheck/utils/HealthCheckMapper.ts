@@ -1,4 +1,4 @@
-import { ResposneDto } from '../../shared/ResponseDto.js';
+import { ResposneDto } from '../../../shared/ResponseDto.js';
 import { HealthCheck } from '../domain/entity/HealthCheck.js';
 import { HealthCheckDto } from '../payload/HealthCheckDto.js';
 
