@@ -43,14 +43,19 @@ To set up the project locally, follow these steps:
 > **Note**: Ensure you have Node.js version 20 or above for compatibility with this project.
 
 ## 🚀 Usage
+1. **Create .env.dev**
+    add
+    ```bash
+    PORT=8080
+    ```
 
-1. **Run the development server**
+2. **Run the development server**
 
     ```bash
     npm run dev
     ```
 
-2. Access the API and Swagger documentation:
+3. Access the API and Swagger documentation:
     - **Swagger**: Go to `http://localhost:<port>/swagger` to view interactive API documentation (adjust `<port>` as needed in your setup).
     - **API DOCS**: Go to `http://localhost:<port>/api-docs` to get openapi docs as a further usage (adjust `<port>` as needed in your setup).
 
